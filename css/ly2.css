@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 40px 100px 100px 100px;
+    background: rgb(255, 185, 185);
+}
+
+div {
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    background: #f7618b;
+    padding: 20px;
+}
+
+.header {
+    background: #f7618b;
+    padding: 80px;
+}
+
+.introArea {
+    background: #f7618b;
+    padding: 60px;
+}
+
+.dock {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    ;
+    column-gap: 2rem;
+    flex-flow: wrap;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    background: #f7618b;
+}
+
+.footer {
+    background: #f7618b;
+    padding: 30px;
+}

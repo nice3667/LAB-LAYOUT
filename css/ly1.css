@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 10px 200px 10px 200px;
+    width: 100%;
+    background: rgb(244, 244, 18);
+}
+
+.logo {
+    padding: 50px 20px 15px 20px;
+}
+
+.navbar {
+    text-align: center;
+    padding: 20px 20px 15px 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}
+
+.flexnaja {
+    display: flex;
+}
+
+.sidebar {
+    display: block;
+    flex: 0.7;
+    column-gap: 3;
+    height: 450px;
+}
+
+.content {
+    display: block;
+    flex: 2;
+    column-gap: 3;
+    height: 450px;
+}
+
+.gray-color {
+    background: rgb(26, 22, 245) !important;
+    margin: 5px;
+}
+
+
+.footer {
+    text-align: center;
+    height: 80px;
+}
